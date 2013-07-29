@@ -37,6 +37,10 @@ static const char *kCrosEventNames[] = {
   "ModemManagerCommandSendFailure",  // 0
   "HwWatchdogReboot",  // 1
   "Cras.NoCodecsFoundAtBoot",  // 2
+  "Chaps.DatabaseCorrupted",  // 3
+  "Chaps.DatabaseRepairFailure",  // 4
+  "Chaps.DatabaseCreateFailure",  // 5
+  "Ec.TpsReset",  // 6
 };
 
 time_t MetricsLibrary::cached_enabled_time_ = 0;
